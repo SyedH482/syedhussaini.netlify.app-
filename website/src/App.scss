@@ -1,0 +1,98 @@
+$royalBlue: #4169e1;
+$blackColor: black;
+$blanchedalmond: blanchedalmond;
+
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+
+}
+
+
+a{
+    color: $royalBlue;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    .center{
+        margin: auto;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        @extend .group;
+    }
+
+    li {
+        list-style: none;
+        float: left;
+        margin-right: 10px;
+    }
+
+    a{
+        
+        display: block;
+        padding: 10px;
+        background-color: $blackColor;
+        color: #FFF;
+        text-decoration: none;
+    }
+}
+.socials{
+    text-align: center;
+
+    .linkedin-btn{
+        position: absolute;
+        bottom: 5%;
+        right: 50%;
+        background-image: url(images/linkedin.jfif);
+        display: inline-block;
+        background-color: $blanchedalmond;
+        padding: 15px;
+        margin-right: 10px;
+        border-radius:  7px;
+        font-size: 80%;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .twitter-btn{
+        position: absolute;
+        bottom: 5%;
+        background-image: url(images/twitter.jpg);
+        display: inline-block;
+        background-color: $blanchedalmond;
+        padding: 15px;
+        margin-right: 10px;
+        border-radius:  7px;
+        font-size: 80%;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+
+    }
+}
+.group:before,
+.group:after{
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group{
+    zoom: 1;
+}
