@@ -1,6 +1,5 @@
 # Notes from Syed:
-The website contains two very basic webpages, an aboutme page and a home page using routes from react. 
-
+Uses Netlify: https://syedhussaini.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
