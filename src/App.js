@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import './App.scss'
 import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom';
 import { Aboutme, Home, Footer } from "./components"; 
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const closeMobileMenu = () => setClick(false);

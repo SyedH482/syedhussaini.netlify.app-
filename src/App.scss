@@ -1,12 +1,13 @@
 $royalBlue: #4169e1;
 $blackColor: black;
 $blanchedalmond: blanchedalmond;
+$white: white;
 
 
 body{
-    background-color: blanchedalmond;
     font-family: 'Times New Roman', Times, serif;
-    text-align: left;
+    text-align: center;
+    color: $white;
 
 }
 
@@ -21,6 +22,7 @@ img {
     align-items: center;
     justify-content: center;
 }
+
 
 nav {
     .center{
