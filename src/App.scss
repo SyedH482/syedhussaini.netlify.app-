@@ -3,26 +3,9 @@ $blackColor: black;
 $blanchedalmond: blanchedalmond;
 $white: white;
 
-
-body{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: $white;
-
-}
-
-
 a{
     color: $royalBlue;
 }
-
-img {
-    height: 500px;
-    width: 500px;
-    align-items: center;
-    justify-content: center;
-}
-
 
 nav {
     .center{
@@ -39,20 +22,19 @@ nav {
         list-style: none;
         float: left;
         margin-right: 10px;
+
     }
 
     a{
-        
         display: block;
         padding: 10px;
         background-color: $blackColor;
-        color: #FFF;
+        color:$white;
         text-decoration: none;
     }
 }
-.socials{
-    text-align: center;
 
+.socials{
     .linkedin-btn{
         position: absolute;
         bottom: 5%;

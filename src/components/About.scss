@@ -1,0 +1,28 @@
+$royalBlue: #4169e1;
+$blackColor: black;
+$blanchedalmond: blanchedalmond;
+$white: white;
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: $blackColor;
+
+}
+img {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 500px;
+}
+
+
+#backgroundAbt{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

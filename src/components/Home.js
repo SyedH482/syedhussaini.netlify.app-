@@ -12,12 +12,9 @@ function Home() {
           <video loop autoPlay muted id="bg-video">
         <source src={bgvideo} type="video/mp4" />
         </video>
-        <h2>Welcome to my website!</h2>
+        <h2>Welcome!</h2>
           <ul>Hi my name is Syed Hussaini, I'm a 24 from Waukegan, Illinois. Welcome to my website!</ul>
       </body>
-          </div>
-          <div class="col-lg-5">
-
           </div>
         </div>
       </div>
