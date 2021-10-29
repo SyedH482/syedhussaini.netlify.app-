@@ -1,4 +1,5 @@
 import React from "react";
+import background from "../images/me.jpeg";
 
 function Aboutme() {
   return (
@@ -9,6 +10,7 @@ function Aboutme() {
           </div>
           <div class="col-lg-5">
             <h1 class="font-weight-light">About</h1>
+            <img id="Syed" src={background} alt="Syed"/>
             <p>
                 Here's some information about me:
             </p>
